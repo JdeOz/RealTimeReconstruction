@@ -45,7 +45,7 @@ float vertices2[1080*1920*4];
 
 int main()
 {
-    cout<<"Inicio del programa"<<endl;
+    cout<<"Inicio del programa!!"<<endl;
     kinect_api sensor;
     apriltag_family_t* tagFamily = tag36h11_create();
     apriltag_detector_t* tagDetector = apriltag_detector_create();
