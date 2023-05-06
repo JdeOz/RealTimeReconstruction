@@ -162,6 +162,7 @@
   <ItemGroup>
     <ClCompile Include="glad.c" />
     <ClCompile Include="Libraries\include\glm\detail\glm.cpp" />
+    <ClCompile Include="src\Apriltag.cpp" />
     <ClCompile Include="src\kinect_api.cpp" />
     <ClCompile Include="src\main.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
@@ -705,6 +706,7 @@
     <ClInclude Include="Libraries\include\learnopengl\shader_m.h" />
     <ClInclude Include="Libraries\include\learnopengl\shader_s.h" />
     <ClInclude Include="Libraries\include\stb_image.h" />
+    <ClInclude Include="src\Apriltag.h" />
     <ClInclude Include="src\aux_lib.h" />
     <ClInclude Include="src\kinect_api.h" />
   </ItemGroup>
